@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    background-color: #003638;
+    text-align: center;
+    color: white;
+    font-family: "Patrick Hand", cursive;
+    font-size: 1.4em;
+}
+
+h1 {
+    /*      top  right bottom left */
+    margin: 50px auto 0 auto;
+    /* rem - ignore the parent font-size */
+    font-size: 4.5rem;
+    font-family: "Nanum Pen Script", cursive;
+    color: #66bfbf;
+    line-height: 2;
+}
+
+h2 {
+    font-weight: normal;
+    font-family: "Montserrat", sans-serif;
+    color: #66bfbf;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #11999e;
+    font-size: 1em;
+}
+
+p {
+    line-height: 2;
+    color: white;
+}
+
+a {
+    color: #003638;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.7em;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+}
+
+hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    border-width: 0.3em;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.top-container {
+    background-color: #003638;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    margin: 100px 0 100px 0;
+    background-color: #003638;
+    position: relative;
+}
+
+.bottom-container {
+    background-color: #f8ede3;
+    position: relative;
+    color: #003638;
+    padding: 50px 0 5px 0;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 350px;
+    bottom: 300px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 400px;
+    top: 50px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.profile-img {
+    width: 15%;
+    height: 15%;
+}
+
+.code-img {
+    width: 40%;
+    float: left;
+    margin-right: 30px;
+}
+
+.game-img {
+    position: relative;
+    width: 25%;
+    float: right;
+    margin-left: 40px;
+}
+
+.contact-button {
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    border-radius: 1em;
+    color: #2f5d62;
+    padding: 1.3em;
+    background-color: white;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    width: 10%;
+    height: 5%;
+}
+
+.contact-button:hover {
+    background: #f8ede3;
+    border: solid #f8ede3 0.1em;
+    color: black;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    border-radius: 1em;
+    text-decoration: none;
+}
+
+.contact-message {
+    width: 35%;
+    margin: 40px auto 60px;
+}
+
+.copyright {
+    color: #003638;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.6em;
+    padding: 20px 0;
+}
